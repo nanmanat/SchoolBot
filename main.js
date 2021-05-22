@@ -35,4 +35,4 @@ client.on('guildMemberAdd', guildMember => {
 });
 
 
-client.login('ODQ1MjA5MDk4ODM5NjU0NDAw.YKdoUA.IoFsuRsHc-ZcD6phgQCpGWYOrN4');
+client.login(process.env.TOKEN);
